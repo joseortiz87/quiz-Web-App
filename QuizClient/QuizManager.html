@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Quiz Manager</title>
+
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row" id="nav-container"></div>
+
+
+
+    <div class="row">
+        <div class="col-lg-12">
+
+            <h1 class="display-3"> Your Quizzes </h1>
+            <button onclick="addNewQuiz()" type="button" class="btn btn-success">
+                <span class="glyphicon glyphicon-plus"></span>
+            </button>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th>Couse</th>
+                    <th>Quiz</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="id_quiz_tbody">
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+</div>
+</div>
+
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="js/sdk.js"></script>
+<script src="js/quizManager.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brugerinfo</title>
+
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+<div class="row" id="nav-container"></div>
+
+<h1>Dis the brugerinstillinger page</h1>
+<p>Her kan du se dine personlige informationer</p>
+
+<p id="usernameInput">Username</p>
+<p id="idInput">ID</p>
+
+<div>
+    <p>Her sletter vi brugeren</p>
+    <button id="sletBrugerKnap">Slet bruger</button>
+</div>
+
+
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="js/sdk.js"></script>
+<script src="js/brugerinfopage.js"></script>
+<script>
+    SDK.User.loadNav();
+</script>
+</body>
+</html>

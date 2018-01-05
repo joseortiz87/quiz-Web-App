@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="page-header">
+                <h1>Sign Up</h1>
+                <div id="load-test"></div>
+            </div>
+            <div class="form-group">
+                <label class="control-label" id="usernameInput" for="inputUsername">Username</label>
+                <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <label class="control-label" id="passwordInput" for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label class="control-label" id="inputFirstname" for="inputUsername">First Name</label>
+                <input type="text" class="form-control" id="fornavn" placeholder="Fornavn">
+            </div>
+            <div class="form-group">
+                <label class="control-label" id="inputLastname" for="inputPassword">Last Name</label>
+                <input type="text" class="form-control" id="efternavn" placeholder="Efternavn">
+            </div>
+            <button style="margin-bottom: 40px" class="btn btn-default" id="opretBtn">Create</button>
+        </div>
+    </div>
+</div>
+
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="js/sdk.js"></script>
+<script src="js/login.js"></script>
+<script>
+    SDK.User.loadNav();
+</script>
+</body>
+</html>
